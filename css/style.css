@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body,html{
+    height:100%;
+}
+body{
+    background:linear-gradient(90deg,black,white);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    gap:16px;
+}
+
+#titulo{
+    color:white;
+    text-align:center;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    width:fit-content;
+    padding:50px;
+    border:1px solid white;
+    border-radius:7px;
+    gap:16px;
+    background-color:rgb(235, 230, 230);
+    border:1px solid black;
+}
+
+form button{
+    padding:10px;
+    text-transform:uppercase;
+
+}
